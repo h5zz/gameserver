@@ -10,34 +10,43 @@ var options = {
 
 var app = express();
 
+// app.use(express.static('public'));
+// app.configure(function () {
+//   app.use(express.methodOverride());
+//   app.use(express.bodyParser());
+//   app.use(app.router);
 
+// });
 
-app.use(express.static('public'));
-app.configure(function () {
-  app.use(express.methodOverride());
-  app.use(express.bodyParser());
-  app.use(app.router);
-  app.set('view engine', 'jade');
-  app.set('views', __dirname + '/public');
-  app.set('view options', { layout: false });
-  app.set('basepath', __dirname + '/public');
-});
+app.set('view engine', 'jade');
+app.set('views', __dirname + '/public');
+app.set('view options', { layout: false });
+app.set('basepath', __dirname + '/public');
 
-app.configure('development', function () {
+// app.configure('development', function () {
+//   app.use(express.static(__dirname + '/public'));
+//   app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
+// });
+let env = process.env.NODE_ENV || 'development';
+
+let errorhandler = express.errorHandler;
+
+if('development' == env){
   app.use(express.static(__dirname + '/public'));
-  app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
-});
+  app.use(errorhandler({log:false}));
+}
 
-app.configure('production', function () {
+
+if('production' == env) {
   var oneYear = 31557600000;
   app.use(express.static(__dirname + '/public', { maxAge: oneYear }));
-  app.use(express.errorHandler());
-});
+  app.use(errorhandler());
+};
 
 
 
-var httpsServer = https.createServer(options, app);
+//var httpsServer = https.createServer(options, app);
 
-httpsServer.listen(3001, () => {
+app.listen(3001, () => {
   console.log("Web server has started.");
 });

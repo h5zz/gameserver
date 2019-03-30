@@ -2,3 +2,7 @@
 [2019-03-29 10:36:49.692] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
 [2019-03-29 10:36:49.762] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
 [2019-03-29 10:36:49.762] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 304 ms
+[2019-03-30 11:23:02.602] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2019-03-30 11:23:02.850] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2019-03-30 11:23:02.918] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2019-03-30 11:23:02.919] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 306 ms
