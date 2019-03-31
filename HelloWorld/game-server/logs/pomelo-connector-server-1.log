@@ -1,8 +1,81 @@
-[2019-03-29 10:36:49.447] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
-[2019-03-29 10:36:49.692] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
-[2019-03-29 10:36:49.762] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
-[2019-03-29 10:36:49.762] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 304 ms
-[2019-03-30 11:23:02.602] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
-[2019-03-30 11:23:02.850] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
-[2019-03-30 11:23:02.918] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
-[2019-03-30 11:23:02.919] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 306 ms
+[2019-03-31 14:15:26.375] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2019-03-31 14:15:26.659] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2019-03-31 14:15:26.661] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2019-03-31 14:15:26.661] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 245 ms
+[2019-03-31 14:16:40.366] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2019-03-31 14:18:54.952] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 1
+[2019-03-31 14:19:04.580] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 2
+[2019-03-31 14:19:04.585] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 2, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.gateHandler.queryEntry","body":{"uid":1},"compressGzip":0}
+[2019-03-31 14:19:04.587] [WARN] pomelo - [33m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/handlerService.js] [39mcould not find handler for routeRecord: {"route":"connector.gateHandler.queryEntry","serverType":"connector","handler":"gateHandler","method":"queryEntry"}
+[2019-03-31 14:19:04.588] [ERROR] pomelo - [31m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/handlerService.js] [39m[handleManager]: fail to find handler for "connector.gateHandler.queryEntry"
+[2019-03-31 14:19:04.588] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for connector.gateHandler.queryEntry
+    at Service.handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/handlerService.js:35:30)
+    at handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:375:25)
+    at next (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at doHandle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:388:3)
+    at dispatch (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:107:7)
+    at next (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+[2019-03-31 14:19:04.589] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.gateHandler.queryEntry, msg: {"code":500}, receivers: [2], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2019-03-31 14:19:04.594] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 2
+[2019-03-31 14:21:07.932] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 3
+[2019-03-31 14:21:07.936] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 3, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.gateHandler.entry","body":{"uid":1},"compressGzip":0}
+[2019-03-31 14:21:07.936] [WARN] pomelo - [33m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/handlerService.js] [39mcould not find handler for routeRecord: {"route":"connector.gateHandler.entry","serverType":"connector","handler":"gateHandler","method":"entry"}
+[2019-03-31 14:21:07.936] [ERROR] pomelo - [31m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/handlerService.js] [39m[handleManager]: fail to find handler for "connector.gateHandler.entry"
+[2019-03-31 14:21:07.936] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for connector.gateHandler.entry
+    at Service.handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/handlerService.js:35:30)
+    at handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:375:25)
+    at next (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at doHandle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:388:3)
+    at dispatch (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:107:7)
+    at next (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+[2019-03-31 14:21:07.937] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.gateHandler.entry, msg: {"code":500}, receivers: [3], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2019-03-31 14:21:07.939] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 3
+[2019-03-31 14:25:17.097] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2019-03-31 14:25:17.374] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2019-03-31 14:25:17.376] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2019-03-31 14:25:17.376] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 239 ms
+[2019-03-31 14:26:08.529] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2019-03-31 14:26:08.541] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.gateHandler.entry","body":{"uid":1},"compressGzip":0}
+[2019-03-31 14:26:08.543] [WARN] pomelo - [33m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/handlerService.js] [39mcould not find handler for routeRecord: {"route":"connector.gateHandler.entry","serverType":"connector","handler":"gateHandler","method":"entry"}
+[2019-03-31 14:26:08.544] [ERROR] pomelo - [31m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/handlerService.js] [39m[handleManager]: fail to find handler for "connector.gateHandler.entry"
+[2019-03-31 14:26:08.544] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for connector.gateHandler.entry
+    at Service.handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/handlerService.js:35:30)
+    at handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:375:25)
+    at next (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at doHandle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:388:3)
+    at dispatch (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:107:7)
+    at next (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+[2019-03-31 14:26:08.545] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.gateHandler.entry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2019-03-31 14:26:08.550] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 1
+[2019-03-31 14:35:02.989] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2019-03-31 14:35:03.271] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2019-03-31 14:35:03.273] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2019-03-31 14:35:03.273] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 244 ms
+[2019-03-31 14:37:55.735] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2019-03-31 14:37:55.746] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":1,"route":"connector.entryHandler.entry","body":"hello pomelo","compressGzip":0}
+[2019-03-31 14:37:55.748] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2019-03-31 14:37:55.755] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 1
+[2019-03-31 14:39:06.156] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2019-03-31 14:39:06.435] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2019-03-31 14:39:06.438] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2019-03-31 14:39:06.438] [INFO] pomelo - [32m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 242 ms
+[2019-03-31 14:42:03.626] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2019-03-31 14:42:03.637] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":2,"type":0,"compressRoute":1,"route":"connector.entryHandler.entry","body":"hello pomelo","compressGzip":0}
+[2019-03-31 14:42:03.640] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2019-03-31 14:42:03.645] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 1
+[2019-03-31 14:43:43.355] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 2
+[2019-03-31 14:43:43.362] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 2, msg: {"id":1,"type":0,"compressRoute":1,"route":"connector.entryHandler.entry","body":{"id":1},"compressGzip":0}
+[2019-03-31 14:43:43.363] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [2], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2019-03-31 14:43:43.368] [DEBUG] pomelo - [36m[/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 2
