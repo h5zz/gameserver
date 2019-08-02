@@ -1,0 +1,11 @@
+[2019-04-06 00:05:04.859] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error ReferenceError: consts is not defined
+    at PlayerHandler.enterScene (/Users/zhangzhang/gameserver/HelloWorld/game-server/app/servers/area/handler/playerHandler.js:20:15)
+    at Service.handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/handlerService.js:59:20)
+    at handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:375:25)
+    at next (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at doHandle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:388:3)
+    at Server.pro.handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:125:3)
+    at Component.pro.handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/server.js:67:14)
+    at Remote.forwardMessage (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/remote/backend/msgRemote.js:45:10)

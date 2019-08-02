@@ -1,0 +1,62 @@
+[2019-04-04 10:44:01.379] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error ReferenceError: name is not defined
+    at Remote.add (/Users/zhangzhang/gameserver/HelloWorld/game-server/app/servers/chat/remote/remoteHanlder.js:14:20)
+    at Dispatcher.pro.route (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-server/dispatcher.js:52:10)
+    at Acceptor.cb (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:22:16)
+    at processMsg (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-server/acceptors/mqtt-acceptor.js:138:12)
+    at Connection.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-server/acceptors/mqtt-acceptor.js:62:11)
+    at Connection.emit (events.js:182:13)
+    at Connection.emitPacket (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/mqtt-connection/connection.js:14:8)
+    at Connection.emit (events.js:182:13)
+    at addChunk (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/duplexify/node_modules/readable-stream/lib/_stream_readable.js:291:12)
+    at readableAddChunk (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/duplexify/node_modules/readable-stream/lib/_stream_readable.js:278:11)
+[2019-04-04 10:47:50.306] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] unknown server: 1
+[2019-04-04 10:47:50.306] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:1
+[2019-04-04 10:47:50.306] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: 1, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onAdd",{"route":"onAdd","user":"1*102"},[101],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2019-04-04 11:11:03.061] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] unknown server: 1
+[2019-04-04 11:11:03.061] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:1
+[2019-04-04 11:11:03.061] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: 1, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onAdd",{"route":"onAdd","user":"1*102"},[101],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2019-04-04 11:12:44.752] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] unknown server: 1
+[2019-04-04 11:12:44.752] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:1
+[2019-04-04 11:12:44.752] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: 1, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onAdd",{"route":"onAdd","user":"1*103"},[101,102],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2019-04-04 11:14:55.285] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] unknown server: 1
+[2019-04-04 11:14:55.286] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:1
+[2019-04-04 11:14:55.286] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: 1, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onAdd",{"route":"onAdd","user":"1*104"},[101,102,103],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2019-04-04 11:20:15.526] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] unknown server: 1
+[2019-04-04 11:20:15.526] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:1
+[2019-04-04 11:20:15.527] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: 1, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onAdd",{"route":"onAdd","user":"1*102"},[101],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2019-04-04 11:21:15.042] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] unknown server: 1
+[2019-04-04 11:21:15.042] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:1
+[2019-04-04 11:21:15.042] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: 1, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onAdd",{"route":"onAdd","user":"1*103"},[101,102],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2019-04-04 12:04:10.773] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'pushMessage' of undefined
+    at Remote.kick (/Users/zhangzhang/gameserver/HelloWorld/game-server/app/servers/chat/remote/remoteHanlder.js:41:13)
+    at Dispatcher.pro.route (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-server/dispatcher.js:52:10)
+    at Acceptor.cb (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:22:16)
+    at processMsg (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-server/acceptors/mqtt-acceptor.js:138:12)
+    at Connection.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-server/acceptors/mqtt-acceptor.js:62:11)
+    at Connection.emit (events.js:182:13)
+    at Connection.emitPacket (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/mqtt-connection/connection.js:14:8)
+    at Connection.emit (events.js:182:13)
+    at addChunk (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/duplexify/node_modules/readable-stream/lib/_stream_readable.js:291:12)
+    at readableAddChunk (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/duplexify/node_modules/readable-stream/lib/_stream_readable.js:278:11)
+[2019-04-06 10:59:44.888] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'split' of undefined
+    at ChatHandler.send (/Users/zhangzhang/gameserver/HelloWorld/game-server/app/servers/chat/handler/chatHandler.js:16:37)
+    at Service.handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/handlerService.js:59:20)
+    at handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:375:25)
+    at next (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at doHandle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:388:3)
+    at Server.pro.handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:125:3)
+    at Component.pro.handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/server.js:67:14)
+    at Remote.forwardMessage (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/remote/backend/msgRemote.js:45:10)
+[2019-04-06 11:17:26.358] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error ReferenceError: uid is not defined
+    at ChatHandler.send (/Users/zhangzhang/gameserver/HelloWorld/game-server/app/servers/chat/handler/chatHandler.js:21:14)
+    at Service.handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/handlerService.js:59:20)
+    at handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:375:25)
+    at next (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at doHandle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:388:3)
+    at Server.pro.handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/server/server.js:125:3)
+    at Component.pro.handle (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/components/server.js:67:14)
+    at Remote.forwardMessage (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo/lib/common/remote/backend/msgRemote.js:45:10)

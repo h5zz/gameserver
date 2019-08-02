@@ -1,0 +1,138 @@
+[2019-04-03 14:53:10.208] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server chat-server-1 host: 127.0.0.1, port: undefined
+[2019-04-03 14:53:40.211] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 0 host: 127.0.0.1, port: undefined
+[2019-04-03 14:53:40.212] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 0 host: 127.0.0.1, port: undefined
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-03 14:53:40.213] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"user","serverType":"chat","service":"remoteHanlder","method":"add","args":[101,"1",1,true]}, error code: 5
+[2019-04-03 14:53:40.215] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-1 checkKeepAlive timeout from remote server chat-server-1 for 20000 lastPing: 1554274400212 lastPong: -1
+[2019-04-03 14:54:39.713] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server chat-server-1 host: 127.0.0.1, port: undefined
+[2019-04-03 14:55:09.720] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 0 host: 127.0.0.1, port: undefined
+[2019-04-03 14:55:09.721] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 0 host: 127.0.0.1, port: undefined
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-03 14:55:09.721] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"user","serverType":"chat","service":"remoteHanlder","method":"add","args":[101,"1",1,true]}, error code: 5
+[2019-04-03 14:55:09.723] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-1 checkKeepAlive timeout from remote server chat-server-1 for 20000 lastPing: 1554274489715 lastPong: -1
+[2019-04-03 15:01:12.089] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server chat-server-1 host: 127.0.0.1, port: undefined
+[2019-04-04 10:40:55.810] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server chat-server-1 host: 127.0.0.1, port: undefined
+[2019-04-04 10:41:25.816] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 0 host: 127.0.0.1, port: undefined
+[2019-04-04 10:41:25.817] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 0 host: 127.0.0.1, port: undefined
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-04 10:41:25.818] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"user","serverType":"chat","service":"remoteHanlder","method":"add","args":[101,"1",1,"1*101"]}, error code: 5
+[2019-04-04 10:41:25.822] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-1 checkKeepAlive timeout from remote server chat-server-1 for 20000 lastPing: 1554345665815 lastPong: -1
+[2019-04-04 11:36:54.918] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+[2019-04-04 11:36:54.919] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-04 11:36:54.919] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"user","serverType":"chat","service":"remoteHanlder","method":"kick","args":[101,"connector-server-1",1]}, error code: 5
+[2019-04-04 11:37:37.858] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 4 host: 127.0.0.1, port: 6050
+[2019-04-04 11:37:37.858] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 4 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-04 11:37:37.858] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"user","serverType":"chat","service":"remoteHanlder","method":"kick","args":[102,"connector-server-1",1]}, error code: 5
+[2019-04-04 11:46:16.299] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+[2019-04-04 11:46:16.300] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-04 11:46:16.300] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"user","serverType":"chat","service":"remoteHanlder","method":"kick","args":[101,"connector-server-1",1]}, error code: 5
+[2019-04-04 11:57:19.853] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+[2019-04-04 11:57:19.854] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-04 11:57:19.854] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"user","serverType":"chat","service":"remoteHanlder","method":"kick","args":[101,"connector-server-1"]}, error code: 5
+[2019-04-04 11:58:42.249] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 4 host: 127.0.0.1, port: 6050
+[2019-04-04 11:58:42.249] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 4 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-04 11:58:42.249] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"user","serverType":"chat","service":"remoteHanlder","method":"kick","args":[103,"connector-server-1"]}, error code: 5
+[2019-04-04 12:06:19.947] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+[2019-04-04 12:06:19.947] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-04 12:06:19.948] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"user","serverType":"chat","service":"remoteHanlder","method":"kick","args":[102,"connector-server-1"]}, error code: 5
+[2019-04-04 12:10:41.182] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+[2019-04-04 12:10:41.182] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-04 12:10:41.183] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"user","serverType":"chat","service":"remoteHanlder","method":"kick","args":[102,"connector-server-1"]}, error code: 5
+[2019-04-04 12:15:21.713] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+[2019-04-04 12:15:21.713] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-04 12:15:21.714] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"user","serverType":"chat","service":"remoteHanlder","method":"kick","args":[102,"connector-server-1",1]}, error code: 5
+[2019-04-04 12:18:37.010] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc client connector-server-1 process remote server chat-server-1 message with error: ReferenceError: next is not defined
+    at /Users/zhangzhang/gameserver/HelloWorld/game-server/app/servers/connector/handler/entryHandler.js:77:4
+    at Object.Utils.applyCallback (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/util/utils.js:11:6)
+    at /Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:268:15
+    at doFilter (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:356:5)
+    at /Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:264:7
+    at processMsg (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:245:3)
+    at Connection.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:79:9)
+    at Connection.emit (events.js:182:13)
+    at Connection.emitPacket (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/mqtt-connection/connection.js:14:8)
+    at Connection.emit (events.js:182:13)
+[2019-04-06 11:27:17.919] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+[2019-04-06 11:27:17.920] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-06 11:27:17.921] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"sys","serverType":"chat","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"chat.chatHandler.send","body":{"rid":1,"content":"我进来里","target":"*"},"compressGzip":0},{"id":1,"frontendId":"connector-server-1","uid":101,"settings":{"playerId":"1*101","rid":1,"areaId":1}}]}, error code: 5
+[2019-04-06 11:29:27.859] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+[2019-04-06 11:29:27.860] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-06 11:29:27.860] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"sys","serverType":"chat","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"chat.chatHandler.send","body":{"rid":1,"content":"我进来里","target":"*"},"compressGzip":0},{"id":1,"frontendId":"connector-server-1","uid":101,"settings":{"playerId":"1*101","rid":1,"areaId":1}}]}, error code: 5
+[2019-04-06 11:37:08.408] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+[2019-04-06 11:37:08.408] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-06 11:37:08.409] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"sys","serverType":"chat","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"chat.chatHandler.send","body":{"rid":1,"uid":101,"content":"我进来里","target":"*"},"compressGzip":0},{"id":1,"frontendId":"connector-server-1","uid":101,"settings":{"playerId":"1*101","rid":1,"areaId":1}}]}, error code: 5
+[2019-04-06 11:40:53.366] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+[2019-04-06 11:40:53.366] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-04-06 11:40:53.366] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: chat-server-1, msg: {"namespace":"sys","serverType":"chat","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"chat.chatHandler.send","body":{"rid":1,"uid":101,"content":"我进来里","target":"*"},"compressGzip":0},{"id":1,"frontendId":"connector-server-1","uid":101,"settings":{"playerId":"1*101","rid":1,"areaId":1}}]}, error code: 5

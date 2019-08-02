@@ -1,0 +1,11 @@
+[2019-04-03 21:51:53.526] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error ReferenceError: cb is not defined
+    at Remote.getABC (/Users/zhangzhang/gameserver/HelloWorld/game-server/app/servers/time/remote/remoteHandler.js:14:5)
+    at Dispatcher.pro.route (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-server/dispatcher.js:52:10)
+    at Acceptor.cb (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:22:16)
+    at processMsg (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-server/acceptors/mqtt-acceptor.js:138:12)
+    at Connection.<anonymous> (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/pomelo-rpc/lib/rpc-server/acceptors/mqtt-acceptor.js:62:11)
+    at Connection.emit (events.js:182:13)
+    at Connection.emitPacket (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/mqtt-connection/connection.js:14:8)
+    at Connection.emit (events.js:182:13)
+    at addChunk (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/duplexify/node_modules/readable-stream/lib/_stream_readable.js:291:12)
+    at readableAddChunk (/Users/zhangzhang/gameserver/HelloWorld/game-server/node_modules/duplexify/node_modules/readable-stream/lib/_stream_readable.js:278:11)

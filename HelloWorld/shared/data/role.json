@@ -1,0 +1,7 @@
+[
+    ["id","名字","英文名","怪物级别","初始血量","初始魔法","初始攻","初始防","命中率","闪避率","攻击速度","行走速度","升级系数","基础经验值",""],
+    ["id","name","englishName","level","hp","mp","attackValue","defenceValue","hitRate","dodgeRate","attackSpeed","walkSpeed","upgradeParam","baseExp",""],
+    [210,"天使","Angle","1",220,20,23,"9",90,13,"1.2",240,0.3,20,""],
+    [211,"炼金术士","Alchemist","1",180,60,18,12,95,10,"1.2",240,0.3,20,""]
+    
+]
